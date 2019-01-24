@@ -26,7 +26,7 @@ const content = (
 
 ReactDOM.render(
   <div>
-    <Popover placement="topLeft" title={text} content={content}>
+    <Popover placement="topLeft" content={content}>
       <Button>Align edge / 边缘对齐</Button>
     </Popover>
     <Popover placement="topLeft" title={text} content={content} arrowPointAtCenter>
